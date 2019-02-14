@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F4C370E2214F9AE009AA13C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C370D2214F9AE009AA13C /* AppDelegate.swift */; };
+		4F4C37102214F9AE009AA13C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C370F2214F9AE009AA13C /* ViewController.swift */; };
+		4F4C37132214F9AE009AA13C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C37112214F9AE009AA13C /* Main.storyboard */; };
+		4F4C37162214F9AE009AA13C /* HelloLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C37142214F9AE009AA13C /* HelloLocation.xcdatamodeld */; };
+		4F4C37182214F9B0009AA13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C37172214F9B0009AA13C /* Assets.xcassets */; };
+		4F4C371B2214F9B0009AA13C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C37192214F9B0009AA13C /* LaunchScreen.storyboard */; };
+		4F4C37262214F9B0009AA13C /* HelloLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C37252214F9B0009AA13C /* HelloLocationTests.swift */; };
+		4F4C37312214F9B0009AA13C /* HelloLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C37302214F9B0009AA13C /* HelloLocationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F4C37222214F9B0009AA13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4C37022214F9AE009AA13C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4C37092214F9AE009AA13C;
+			remoteInfo = HelloLocation;
+		};
+		4F4C372D2214F9B0009AA13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4C37022214F9AE009AA13C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4C37092214F9AE009AA13C;
+			remoteInfo = HelloLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F4C370A2214F9AE009AA13C /* HelloLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4C370D2214F9AE009AA13C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F4C370F2214F9AE009AA13C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F4C37122214F9AE009AA13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F4C37152214F9AE009AA13C /* HelloLocation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloLocation.xcdatamodel; sourceTree = "<group>"; };
+		4F4C37172214F9B0009AA13C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F4C371A2214F9B0009AA13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F4C371C2214F9B0009AA13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4C37212214F9B0009AA13C /* HelloLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4C37252214F9B0009AA13C /* HelloLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloLocationTests.swift; sourceTree = "<group>"; };
+		4F4C37272214F9B0009AA13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4C372C2214F9B0009AA13C /* HelloLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4C37302214F9B0009AA13C /* HelloLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloLocationUITests.swift; sourceTree = "<group>"; };
+		4F4C37322214F9B0009AA13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F4C37072214F9AE009AA13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4C371E2214F9B0009AA13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4C37292214F9B0009AA13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4C37012214F9AE009AA13C = {
+			isa = PBXGroup;
+			children = (
+				4F4C370C2214F9AE009AA13C /* HelloLocation */,
+				4F4C37242214F9B0009AA13C /* HelloLocationTests */,
+				4F4C372F2214F9B0009AA13C /* HelloLocationUITests */,
+				4F4C370B2214F9AE009AA13C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F4C370B2214F9AE009AA13C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4C370A2214F9AE009AA13C /* HelloLocation.app */,
+				4F4C37212214F9B0009AA13C /* HelloLocationTests.xctest */,
+				4F4C372C2214F9B0009AA13C /* HelloLocationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F4C370C2214F9AE009AA13C /* HelloLocation */ = {
+			isa = PBXGroup;
+			children = (
+				4F4C370D2214F9AE009AA13C /* AppDelegate.swift */,
+				4F4C370F2214F9AE009AA13C /* ViewController.swift */,
+				4F4C37112214F9AE009AA13C /* Main.storyboard */,
+				4F4C37172214F9B0009AA13C /* Assets.xcassets */,
+				4F4C37192214F9B0009AA13C /* LaunchScreen.storyboard */,
+				4F4C371C2214F9B0009AA13C /* Info.plist */,
+				4F4C37142214F9AE009AA13C /* HelloLocation.xcdatamodeld */,
+			);
+			path = HelloLocation;
+			sourceTree = "<group>";
+		};
+		4F4C37242214F9B0009AA13C /* HelloLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4C37252214F9B0009AA13C /* HelloLocationTests.swift */,
+				4F4C37272214F9B0009AA13C /* Info.plist */,
+			);
+			path = HelloLocationTests;
+			sourceTree = "<group>";
+		};
+		4F4C372F2214F9B0009AA13C /* HelloLocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4C37302214F9B0009AA13C /* HelloLocationUITests.swift */,
+				4F4C37322214F9B0009AA13C /* Info.plist */,
+			);
+			path = HelloLocationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F4C37092214F9AE009AA13C /* HelloLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4C37352214F9B0009AA13C /* Build configuration list for PBXNativeTarget "HelloLocation" */;
+			buildPhases = (
+				4F4C37062214F9AE009AA13C /* Sources */,
+				4F4C37072214F9AE009AA13C /* Frameworks */,
+				4F4C37082214F9AE009AA13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloLocation;
+			productName = HelloLocation;
+			productReference = 4F4C370A2214F9AE009AA13C /* HelloLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F4C37202214F9B0009AA13C /* HelloLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4C37382214F9B0009AA13C /* Build configuration list for PBXNativeTarget "HelloLocationTests" */;
+			buildPhases = (
+				4F4C371D2214F9B0009AA13C /* Sources */,
+				4F4C371E2214F9B0009AA13C /* Frameworks */,
+				4F4C371F2214F9B0009AA13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4C37232214F9B0009AA13C /* PBXTargetDependency */,
+			);
+			name = HelloLocationTests;
+			productName = HelloLocationTests;
+			productReference = 4F4C37212214F9B0009AA13C /* HelloLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F4C372B2214F9B0009AA13C /* HelloLocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4C373B2214F9B0009AA13C /* Build configuration list for PBXNativeTarget "HelloLocationUITests" */;
+			buildPhases = (
+				4F4C37282214F9B0009AA13C /* Sources */,
+				4F4C37292214F9B0009AA13C /* Frameworks */,
+				4F4C372A2214F9B0009AA13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4C372E2214F9B0009AA13C /* PBXTargetDependency */,
+			);
+			name = HelloLocationUITests;
+			productName = HelloLocationUITests;
+			productReference = 4F4C372C2214F9B0009AA13C /* HelloLocationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F4C37022214F9AE009AA13C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yuuki Nishiyama";
+				TargetAttributes = {
+					4F4C37092214F9AE009AA13C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4F4C37202214F9B0009AA13C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4F4C37092214F9AE009AA13C;
+					};
+					4F4C372B2214F9B0009AA13C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4F4C37092214F9AE009AA13C;
+					};
+				};
+			};
+			buildConfigurationList = 4F4C37052214F9AE009AA13C /* Build configuration list for PBXProject "HelloLocation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F4C37012214F9AE009AA13C;
+			productRefGroup = 4F4C370B2214F9AE009AA13C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4C37092214F9AE009AA13C /* HelloLocation */,
+				4F4C37202214F9B0009AA13C /* HelloLocationTests */,
+				4F4C372B2214F9B0009AA13C /* HelloLocationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F4C37082214F9AE009AA13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4C371B2214F9B0009AA13C /* LaunchScreen.storyboard in Resources */,
+				4F4C37182214F9B0009AA13C /* Assets.xcassets in Resources */,
+				4F4C37132214F9AE009AA13C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4C371F2214F9B0009AA13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4C372A2214F9B0009AA13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F4C37062214F9AE009AA13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4C37102214F9AE009AA13C /* ViewController.swift in Sources */,
+				4F4C370E2214F9AE009AA13C /* AppDelegate.swift in Sources */,
+				4F4C37162214F9AE009AA13C /* HelloLocation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4C371D2214F9B0009AA13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4C37262214F9B0009AA13C /* HelloLocationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4C37282214F9B0009AA13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4C37312214F9B0009AA13C /* HelloLocationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F4C37232214F9B0009AA13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4C37092214F9AE009AA13C /* HelloLocation */;
+			targetProxy = 4F4C37222214F9B0009AA13C /* PBXContainerItemProxy */;
+		};
+		4F4C372E2214F9B0009AA13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4C37092214F9AE009AA13C /* HelloLocation */;
+			targetProxy = 4F4C372D2214F9B0009AA13C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F4C37112214F9AE009AA13C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4C37122214F9AE009AA13C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F4C37192214F9B0009AA13C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4C371A2214F9B0009AA13C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F4C37332214F9B0009AA13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F4C37342214F9B0009AA13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4C37362214F9B0009AA13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH352PYMNC;
+				INFOPLIST_FILE = HelloLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.sample.HelloLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F4C37372214F9B0009AA13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH352PYMNC;
+				INFOPLIST_FILE = HelloLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.sample.HelloLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F4C37392214F9B0009AA13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH352PYMNC;
+				INFOPLIST_FILE = HelloLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.sample.HelloLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloLocation.app/HelloLocation";
+			};
+			name = Debug;
+		};
+		4F4C373A2214F9B0009AA13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH352PYMNC;
+				INFOPLIST_FILE = HelloLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.sample.HelloLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloLocation.app/HelloLocation";
+			};
+			name = Release;
+		};
+		4F4C373C2214F9B0009AA13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH352PYMNC;
+				INFOPLIST_FILE = HelloLocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.sample.HelloLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloLocation;
+			};
+			name = Debug;
+		};
+		4F4C373D2214F9B0009AA13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH352PYMNC;
+				INFOPLIST_FILE = HelloLocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.sample.HelloLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloLocation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F4C37052214F9AE009AA13C /* Build configuration list for PBXProject "HelloLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4C37332214F9B0009AA13C /* Debug */,
+				4F4C37342214F9B0009AA13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4C37352214F9B0009AA13C /* Build configuration list for PBXNativeTarget "HelloLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4C37362214F9B0009AA13C /* Debug */,
+				4F4C37372214F9B0009AA13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4C37382214F9B0009AA13C /* Build configuration list for PBXNativeTarget "HelloLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4C37392214F9B0009AA13C /* Debug */,
+				4F4C373A2214F9B0009AA13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4C373B2214F9B0009AA13C /* Build configuration list for PBXNativeTarget "HelloLocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4C373C2214F9B0009AA13C /* Debug */,
+				4F4C373D2214F9B0009AA13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F4C37142214F9AE009AA13C /* HelloLocation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F4C37152214F9AE009AA13C /* HelloLocation.xcdatamodel */,
+			);
+			currentVersion = 4F4C37152214F9AE009AA13C /* HelloLocation.xcdatamodel */;
+			path = HelloLocation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F4C37022214F9AE009AA13C /* Project object */;
+}
