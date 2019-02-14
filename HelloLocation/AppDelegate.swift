@@ -8,15 +8,31 @@
 
 import UIKit
 import CoreData
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    public let locationSensor = LocationSensor()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // start the location sensor if the sensor is authorized
+        switch CLLocationManager.authorizationStatus(){
+        case .notDetermined:
+            break
+        case .restricted, .denied:
+            break
+        case .authorizedWhenInUse, .authorizedAlways:
+            if UserDefaults.standard.bool(forKey: LocationSensor.SENSOR_LOCATION_SETTING_STATUS) {
+                locationSensor.start()
+            }
+            break
+        }
+        
         return true
     }
 

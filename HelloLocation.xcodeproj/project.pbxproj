@@ -15,6 +15,8 @@
 		4F4C371B2214F9B0009AA13C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C37192214F9B0009AA13C /* LaunchScreen.storyboard */; };
 		4F4C37262214F9B0009AA13C /* HelloLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C37252214F9B0009AA13C /* HelloLocationTests.swift */; };
 		4F4C37312214F9B0009AA13C /* HelloLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C37302214F9B0009AA13C /* HelloLocationUITests.swift */; };
+		4F4C37402214FC4E009AA13C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4C373F2214FC4E009AA13C /* MapKit.framework */; };
+		4F4C376222159C76009AA13C /* LocationSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C376122159C76009AA13C /* LocationSensor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		4F4C372C2214F9B0009AA13C /* HelloLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4C37302214F9B0009AA13C /* HelloLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloLocationUITests.swift; sourceTree = "<group>"; };
 		4F4C37322214F9B0009AA13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4C373F2214FC4E009AA13C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4F4C374522150317009AA13C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4F4C376122159C76009AA13C /* LocationSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSensor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F4C37402214FC4E009AA13C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				4F4C37242214F9B0009AA13C /* HelloLocationTests */,
 				4F4C372F2214F9B0009AA13C /* HelloLocationUITests */,
 				4F4C370B2214F9AE009AA13C /* Products */,
+				4F4C373E2214FC4E009AA13C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +108,7 @@
 			children = (
 				4F4C370D2214F9AE009AA13C /* AppDelegate.swift */,
 				4F4C370F2214F9AE009AA13C /* ViewController.swift */,
+				4F4C376122159C76009AA13C /* LocationSensor.swift */,
 				4F4C37112214F9AE009AA13C /* Main.storyboard */,
 				4F4C37172214F9B0009AA13C /* Assets.xcassets */,
 				4F4C37192214F9B0009AA13C /* LaunchScreen.storyboard */,
@@ -126,6 +134,15 @@
 				4F4C37322214F9B0009AA13C /* Info.plist */,
 			);
 			path = HelloLocationUITests;
+			sourceTree = "<group>";
+		};
+		4F4C373E2214FC4E009AA13C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F4C374522150317009AA13C /* CoreLocation.framework */,
+				4F4C373F2214FC4E009AA13C /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +213,14 @@
 				TargetAttributes = {
 					4F4C37092214F9AE009AA13C = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					4F4C37202214F9B0009AA13C = {
 						CreatedOnToolsVersion = 10.1;
@@ -261,6 +286,7 @@
 			files = (
 				4F4C37102214F9AE009AA13C /* ViewController.swift in Sources */,
 				4F4C370E2214F9AE009AA13C /* AppDelegate.swift in Sources */,
+				4F4C376222159C76009AA13C /* LocationSensor.swift in Sources */,
 				4F4C37162214F9AE009AA13C /* HelloLocation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
